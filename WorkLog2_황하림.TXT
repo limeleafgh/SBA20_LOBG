@@ -1,0 +1,168 @@
+0923
+  Set Lobby framework
+  Set Lobby UI - Offline test
+  Load battle level
+
+0924
+  Fix lobby UI(Connect count)
+  Set animIstance & montage BP
+  Set AimOffset BP
+  Set 'BlendSpace' assets
+  Add FSM (in BP_CharacterAnimInstance)
+  Add animation functions (in BattleCharacter, CharacterAnimInstance)
+  Set animation montage (in BP_BattleCharacter)
+
+0925
+  Fix 'lean' in Battle/BattleCharacter.cpp
+  Add 'lean'&'montage' node in ABP_CharacterAimInstance.uasset
+  Fix slot in 'DeathMontage'
+  Add Fairy Pawn, AIController (ing)
+  Add Fairy BT, BB (ing) 
+
+0928
+  Add source about fairy & Fix fairy blueprint
+  Cleanup source about fairy
+  Fix&Test source about fairy 
+  (남은 테스트 = 컴포넌트로 BP 매개변수만 받고 액터에서 mesh 생성 배치 회전)
+
+0929
+  Fix&Test source about fairy folder (CreateDefaultSubobject -> InstanceStaticMesh)
+
+1002
+  Cleanup
+  Merge & Cleanup
+  Fix about fairy instancedMesh (Actor -> Component)
+
+1004
+  Fix about fairy instancedMesh (remove, add, etc)
+
+1005
+  Fix LobbyPC (Chatting)
+  Fix fairy tags
+  Test fairy damage
+
+1006
+  Fix TakeDamage & ResetTags
+  Add HUD(FairyPawn)
+  Add GetTeamName function(FairyPawn)
+  Add BTTasks(SetStateIf, CallFire)
+  Test StartFireTo function & SetState(FairyPawn, FairyAIController)
+  Connect BehaviorTree with FairyPawn
+
+1007
+  Clean up concept design file
+  Test instancedMesh (fire bullet)
+  Add object channel (see through)
+  Clean up blueprints (player, bullets)
+  Test AttackPoint (BulletBase)
+  Add function & Clean up(FairyPawn, BulletBase, BattleCharacter)
+    * BP_BattleCharacter - ObjectTypes - SeeThrough 추가
+    * BulletBase - OutHit, Controller 이름 변경, 함수 위치 변경, 총을 쏜 폰의 공격력 확인 및 적용
+
+1008
+  Fix BulletBase.cpp (SummonController checking)
+  Fix Buleprint collosion (Pawn, Bullet)
+  Add function(BeginHit)&Clean up in BulletBase
+  Fix BulletBase & Connected codes(FairyPawn, BattleCharacter)
+  Test UpdateHPBar at FairyPawn
+
+1012
+  Fix M_EmissiveBullet Material (use InstancedStaticMesh)
+  Fix about replicate at FairyPawn (NetMulticast & ComponentReplication)
+  Test Reload tower's bullet
+
+1014
+  Test Reload tower's bullet (Scale resetting)
+  Fix Tower Reloading (Instance mesh scale setting)
+
+1015
+  Add Meshes & Materials (Fairy)
+  Add Particle Effects
+  Fix BP_FairyPawn (Add colision at body mesh)
+
+1018
+  Add Repair function in Fairy
+  Add spawn&fire effects in Fairy
+  Fix TakeDamage in Fairy (MaxHP)
+  Fix KY particles
+  Test import mesh
+
+1019
+  Update contents(Ruins)
+  Add test map(Battle)
+
+1020
+  Test radial damage
+  Fix tower's collision
+  Fix reloading
+  Backup
+  Add parameter in sky material & etc
+  Fix synchronize starting rotator
+
+1021
+  Fix BulletBase's radial damage
+  Fix BattleGM (spawn AIManager & wave course setting)
+  Fix AIManager (about SeachCoursePoints function)
+  Fix level (WaveCourse)
+  Fix missile reloading (ing)
+
+1022
+  Fix missile reloading
+    발사 수정해야함 - 발사시 삭제 미사일을 인덱스로 지정 (3발쏘고 1발 재장전 후 쏘면 로딩 배열이 544 됨) - 해결
+    장전 중 발사 시 순서 꼬임 - 해결
+  
+
+1023
+  Fix some perticle duration
+  Add effect at missile & bullet
+  Add function that setting color of tower hp bar
+  Fix missile reloading
+    * Scaling 함수화
+    * 발사 순서를 갱신된 배열의 뒤에서부터가 아니라, 배열 길이의 역순서로
+    * 네트웍 사용 줄임
+
+1024-25
+  Fix fairy missile reloading - 발사를 순서대로, 로딩 퍼센트 저장공간 인덱스만 갱신
+  Fix fairy collision
+
+1026
+  Fix battle map (coursePoint)
+  Fix about attack BTTasks (Minion, Fairy)
+  Add & Fix effect(tower, bullet)
+  Add BP_FairyPawnBoss
+  Add about game result tab
+    * Material
+    * UIWidgetBase & SlotWidget
+    * OpenResultTab function
+
+1027
+  Fix bulletbase
+  Fix respawn actor collision
+
+1028
+  Fix BulletBase.cpp (destroy effet)
+  Fix Landscape
+  Fix BulletBase.cpp (destroy effet 2)
+  Fix ABattleGM::StartAIMinion()
+  Test Result tab (ing - 현재 서버만 반응)
+
+1029
+  Complite Result tab
+  Fix spawn timing at AIManager
+  Add particle blueprint
+
+1030
+  Fix minion spawn location at AIManager
+  Add chatting ui in battle
+  
+
+1101
+  Fix Chatting module (exit input box, erase chat log)
+  Fix Lobby UI (anchor, alpha)
+
+1102
+  Add Sound effect(BulletBase, Minion, Fairy)
+  Add Bullet(ToyCow)
+
+ 
+   
