@@ -11,6 +11,9 @@
 #include "Components/SceneComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Net/UnrealNetwork.h"
+#include "Materials/MaterialInstance.h"
+#include "TimerManager.h"
+
 #include "BattlePC.h"
 #include "BattleGM.h"
 #include "BattlePS.h"

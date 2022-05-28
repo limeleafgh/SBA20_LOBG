@@ -24,6 +24,8 @@ enum class EItemName : uint8
 	Heel = 3		UMETA(Display = "heel"),
 	Bullet = 4		UMETA(Display = "bullet"),
 };
+
+class UMaterialInstance;
 /**
  * 
  */

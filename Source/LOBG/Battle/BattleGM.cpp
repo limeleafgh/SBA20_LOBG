@@ -16,6 +16,8 @@
 #include "AIController.h"
 #include "../AICharacter/Fairy/FairyPawn.h"
 
+#include "TimerManager.h"
+
 void ABattleGM::BeginPlay()
 {
 	Super::BeginPlay();

@@ -5,11 +5,13 @@
 #include "../LobbyPC.h"
 #include "../../Battle/BattlePC.h"
 #include "../../LOBGGameInstance.h"
+
 #include "Kismet/GameplayStatics.h"
 #include "Components/ScrollBox.h"
 #include "Components/EditableTextBox.h"
 #include "Components/TextBlock.h"
 #include "Components/Border.h"
+#include "TimerManager.h"
 
 void UChattingWidgetBase::NativeConstruct()
 {

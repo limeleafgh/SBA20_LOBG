@@ -25,7 +25,7 @@ public:
 
 	virtual void NativeConstruct()override;
 
-	void SetPlayerMesh(UMaterialInstance* PlayerMesh);
+	void SetPlayerMesh(class UMaterialInstance* PlayerMesh);
 
 	void SetPlayerName(FString UserName);
 };

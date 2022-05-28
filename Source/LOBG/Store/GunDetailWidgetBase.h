@@ -25,7 +25,7 @@ public:
 
     virtual void NativeConstruct() override;
 
-    void SetGunImage(UMaterialInstance* NewMaterial);
+    void SetGunImage(class UMaterialInstance* NewMaterial);
 
     void SetGunName(FString ThisGunName);
 

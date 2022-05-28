@@ -4,6 +4,7 @@
 #include "GunDetailWidgetBase.h"
 #include "Components/TextBlock.h"
 #include "Components/Border.h"
+#include "Materials/MaterialInstance.h"
 
 void UGunDetailWidgetBase::NativeConstruct()
 {

@@ -11,6 +11,7 @@
 #include "Styling/WidgetStyle.h"
 #include "GunDetailWidgetBase.h"
 #include "StoreWidgetBase.h"
+#include "Materials/MaterialInstance.h"
 
 void UStoreItemWidgetBase::NativeConstruct()
 {

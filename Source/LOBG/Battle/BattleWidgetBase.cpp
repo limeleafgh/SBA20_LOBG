@@ -5,6 +5,7 @@
 #include "Components/TextBlock.h"
 #include "Components/ProgressBar.h"
 #include "Components/Border.h"
+#include "Materials/MaterialInstance.h"
 #include "../Lobby/UI/ChattingWidgetBase.h"
 #include "Kismet/KismetTextLibrary.h"
 

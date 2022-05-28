@@ -55,7 +55,7 @@ public:
 
 	void SetLevel(int AddLevel);
 
-	void SetPotionSlot(UMaterialInstance* NewMaterial);
+	void SetPotionSlot(class UMaterialInstance* NewMaterial);
 
 	void EmptyPotionSlot();
 

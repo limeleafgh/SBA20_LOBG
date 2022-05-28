@@ -17,10 +17,13 @@
 #include "../UI/TabWidgetBase.h"
 #include "../UI/GameResultWidgetBase.h"
 #include "../Lobby/UI/ChattingWidgetBase.h"
+
+#include "Materials/MaterialInstance.h"
 #include "Components/EditableTextBox.h"
 #include "Components/Border.h"
 #include "Components/ScrollBox.h"
 #include "Engine/StreamableManager.h"
+#include "TimerManager.h"
 
 void ABattlePC::SetupInputComponent()
 {

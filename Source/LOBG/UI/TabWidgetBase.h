@@ -6,6 +6,7 @@
 #include "Blueprint/UserWidget.h"
 #include "TabWidgetBase.generated.h"
 
+class UMaterialInstance;
 /**
  * 
  */

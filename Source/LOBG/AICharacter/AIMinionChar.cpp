@@ -13,6 +13,7 @@
 #include "../UI/HUDBarSceneComponent.h"
 #include "../UI/HPBarWidgetBase.h"
 
+#include "Animation/AnimInstance.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"

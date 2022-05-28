@@ -11,10 +11,11 @@
 #include "../Battle/BattleCharacter.h"
 #include "../AICharacter/Fairy/FairyPawn.h"
 #include "../AICharacter/AIMinionChar.h"
+
 #include "Net/UnrealNetwork.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "GameFramework/Actor.h"
-
+#include "TimerManager.h"
 
 // Sets default values
 ABulletBase::ABulletBase()

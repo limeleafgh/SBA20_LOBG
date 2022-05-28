@@ -6,8 +6,9 @@
 #include "Components/TextBlock.h"
 #include "Components/ScrollBox.h"
 #include "Components/Image.h"
-#include "Blueprint/WidgetLayoutLibrary.h"
+#include "Materials/MaterialInstance.h"
 
+#include "Blueprint/WidgetLayoutLibrary.h"
 #include "MVPSlot.h"
 #include "../Battle/BattleGS.h"
 #include "../Battle/BattleGM.h"

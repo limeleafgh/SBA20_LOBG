@@ -12,6 +12,8 @@
 /**
  * 
  */
+class UMaterialInstance;
+
 UCLASS()
 class LOBG_API UGameResultWidgetBase : public UUserWidget
 {

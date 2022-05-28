@@ -5,6 +5,7 @@
 #include "Components/Image.h"
 #include "Components/TextBlock.h"
 #include "PlayerStatWidgetBase.h"
+#include "Materials/MaterialInstance.h"
 
 void UTabSlotWidgetBase::NativeConstruct()
 {

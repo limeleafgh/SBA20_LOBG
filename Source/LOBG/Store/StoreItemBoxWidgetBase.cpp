@@ -5,6 +5,8 @@
 #include "Components/Border.h"
 #include "Components/Button.h"
 #include "Components/ScrollBox.h"
+#include "Materials/MaterialInstance.h"
+
 #include "StoreItemWidgetBase.h"
 #include "Engine/StreamableManager.h"
 #include "../Battle/BattleCharacter.h"

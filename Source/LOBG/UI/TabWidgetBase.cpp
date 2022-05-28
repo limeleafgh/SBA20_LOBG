@@ -8,6 +8,8 @@
 #include "../Battle/BattleGS.h"
 #include "PlayerStatWidgetBase.h"
 
+#include "Materials/MaterialInstance.h"
+
 void UTabWidgetBase::NativeConstruct()
 {
 	Super::NativeConstruct();
